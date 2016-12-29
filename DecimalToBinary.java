@@ -1,3 +1,4 @@
+//Yaseen Younus
 //Decimal to binary
 
 import java.util.Scanner;
@@ -23,7 +24,7 @@ public class DecimalToBinary
       number = scan.nextInt();
       scan.nextLine();
     }
-    //System.out.println("You entered " + number);
+    
     int num = number;
     String binary = "";
     while(num > 0)
@@ -32,6 +33,7 @@ public class DecimalToBinary
       binary = "" + numMod + binary;
       num = (num - numMod) / 2;
     }
+    
     System.out.println(number + " is " + binary + " in binary.");
     
   }
